@@ -38,10 +38,6 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true },
   },
-  icons: {
-    icon: "/assets/logoselekta.png",
-    apple: "/assets/SELEKTA_fondo_blanco.png",
-  },
   openGraph: {
     title: "Selekta — Selección inteligente para la agroindustria",
     description:
