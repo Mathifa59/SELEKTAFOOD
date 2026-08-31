@@ -32,10 +32,10 @@ export function Services() {
               <Sparkles className="h-3 w-3" />
               Servicios
             </span>
-            <h2 className="mt-5 text-4xl font-extrabold leading-tight tracking-tight text-accent-800 sm:text-5xl">
+            <h1 className="mt-5 text-4xl font-extrabold leading-tight tracking-tight text-accent-800 sm:text-5xl">
               Nuestros{" "}
               <span className="text-gradient-brand">servicios</span>
-            </h2>
+            </h1>
             <p className="mt-5 max-w-lg text-neutral-700">
               Combinamos cámaras de alta resolución con nuestro sistema
               para clasificar frutas y hortalizas en tiempo real, asegurando

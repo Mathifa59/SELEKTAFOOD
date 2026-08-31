@@ -33,6 +33,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Selekta", url: "https://www.selektafood.com" }],
   creator: "Selekta",
+  alternates: {
+    canonical: "/",
+  },
   robots: {
     index: true,
     follow: true,
@@ -48,7 +51,7 @@ export const metadata: Metadata = {
     siteName: "Selekta",
     images: [
       {
-        url: "/assets/SELEKTA_fondo_blanco.png",
+        url: "/assets/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Selekta — Selección inteligente para la agroindustria",
@@ -60,11 +63,31 @@ export const metadata: Metadata = {
     title: "Selekta — Selección inteligente para la agroindustria",
     description:
       "Automatización inteligente que clasifica frutas con precisión superior al humano, reduciendo merma hasta en 20%.",
-    images: ["/assets/SELEKTA_fondo_blanco.png"],
+    images: ["/assets/og-image.jpg"],
   },
   verification: {
     google: "xQAhWW4PCL3oz7zIGSYw58O2Dmhux9ZTYnsMH1-OGWA",
   },
+};
+
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Selekta",
+  url: "https://www.selektafood.com",
+  logo: "https://www.selektafood.com/assets/SELEKTA_fondo_blanco.png",
+  description:
+    "Selekta automatiza la clasificación de frutas y hortalizas con tecnología de clasificación inteligente, reduciendo mermas y aumentando la rentabilidad de plantas agroexportadoras.",
+  email: "contacto@selektafood.com",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Lima",
+    addressCountry: "PE",
+  },
+  sameAs: [
+    "https://www.linkedin.com/showcase/selektafood/",
+    "https://www.instagram.com/selekta.food/",
+  ],
 };
 
 export default function RootLayout({
@@ -73,6 +96,10 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${inter.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-white text-[var(--foreground)]">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

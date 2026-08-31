@@ -72,10 +72,10 @@ export function Productos() {
             <span className="inline-flex items-center gap-2 rounded-full bg-white px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-700 ring-1 ring-brand-100">
               Productos
             </span>
-            <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-accent-800 sm:text-4xl lg:text-5xl">
+            <h1 className="mt-4 text-3xl font-extrabold tracking-tight text-accent-800 sm:text-4xl lg:text-5xl">
               Cultivos donde ya{" "}
               <span className="text-gradient-brand">generamos resultados</span>
-            </h2>
+            </h1>
             <p className="mx-auto mt-4 max-w-xl text-sm text-neutral-600">
               Hemos validado nuestra tecnología en distintos cultivos, logrando
               mejoras medibles en eficiencia, reducción de mermas e impacto

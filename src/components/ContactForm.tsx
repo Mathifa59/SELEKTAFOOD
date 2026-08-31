@@ -96,10 +96,10 @@ export function ContactForm() {
             <span className="inline-flex items-center gap-2 rounded-full bg-brand-50 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-700 ring-1 ring-brand-100">
               Contacto
             </span>
-            <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-accent-800 sm:text-4xl lg:text-5xl">
+            <h1 className="mt-4 text-3xl font-extrabold tracking-tight text-accent-800 sm:text-4xl lg:text-5xl">
               Hablemos de tu{" "}
               <span className="text-gradient-brand">operación</span>
-            </h2>
+            </h1>
             <p className="mx-auto mt-4 max-w-xl text-sm text-neutral-600">
               Déjanos tus datos y un especialista de Selekta se
               comunicará contigo en menos de 24 horas.

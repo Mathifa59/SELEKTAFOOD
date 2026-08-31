@@ -49,13 +49,13 @@ export function Nosotros() {
             <span className="inline-flex items-center gap-2 rounded-full bg-brand-50 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-700 ring-1 ring-brand-100">
               Nosotros
             </span>
-            <h2 className="mt-4 text-4xl font-extrabold leading-tight tracking-tight text-accent-800 sm:text-5xl">
+            <h1 className="mt-4 text-4xl font-extrabold leading-tight tracking-tight text-accent-800 sm:text-5xl">
               Mejoramos la selección.
               <br />
               <span className="text-gradient-brand">
                 Mejoramos el resultado.
               </span>
-            </h2>
+            </h1>
             <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-neutral-600">
               Somos una empresa peruana enfocada en optimizar la selección de
               fruta en plantas agroexportadoras. Mejoramos la precisión en la
