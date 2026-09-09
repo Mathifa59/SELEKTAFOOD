@@ -87,12 +87,23 @@ export function Footer() {
       <div className="relative border-t border-white/10">
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 px-6 py-5 text-center text-xs text-neutral-400 sm:flex-row sm:justify-between">
           <span>© 2026 Selekta. Todos los derechos reservados.</span>
-          <Link
-            href="/privacidad"
-            className="transition-colors hover:text-lime-brand"
-          >
-            Política de Privacidad
-          </Link>
+          <div className="flex flex-col items-center gap-2 sm:flex-row">
+            <Link
+              href="/privacidad"
+              className="transition-colors hover:text-lime-brand"
+            >
+              Política de Privacidad
+            </Link>
+            <span className="hidden text-neutral-600 sm:inline">•</span>
+            <a
+              href="https://www.devhorses.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-lime-brand"
+            >
+              Desarrollado por DevHorses
+            </a>
+          </div>
         </div>
       </div>
     </footer>
