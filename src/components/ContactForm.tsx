@@ -269,10 +269,10 @@ export function ContactForm() {
           <Reveal delay={120}>
             <div className="space-y-4">
               <a
-                href="https://wa.me/51981916198?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Selekta"
+                href="https://wa.me/51986616388?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20Selekta%20y%20c%C3%B3mo%20puede%20ayudar%20a%20optimizar%20la%20selecci%C3%B3n%20en%20mi%20planta.%20%C2%BFPodr%C3%ADan%20darme%20m%C3%A1s%20informaci%C3%B3n%3F"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative block overflow-hidden rounded-2xl bg-gradient-to-br from-[#25D366] to-[#128C7E] p-5 text-white shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:shadow-xl"
+                className="group relative block overflow-hidden rounded-2xl bg-gradient-to-br from-brand-600 to-brand-800 p-5 text-white shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:shadow-xl"
               >
                 <div
                   aria-hidden
