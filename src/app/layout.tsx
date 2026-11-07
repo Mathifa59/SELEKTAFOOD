@@ -85,7 +85,7 @@ const organizationJsonLd = {
     addressCountry: "PE",
   },
   sameAs: [
-    "https://www.linkedin.com/showcase/selektafood/",
+    "https://www.linkedin.com/company/selekta-food",
     "https://www.instagram.com/selekta.food/",
   ],
 };

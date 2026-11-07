@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Nosotros } from "@/components/Nosotros";
+import { Equipo } from "@/components/Equipo";
+import { SupportedBy } from "@/components/SupportedBy";
 import { CTA } from "@/components/CTA";
 
 export const metadata: Metadata = {
@@ -29,6 +31,8 @@ export default function NosotrosPage() {
   return (
     <>
       <Nosotros />
+      <Equipo />
+      <SupportedBy />
       <CTA />
     </>
   );

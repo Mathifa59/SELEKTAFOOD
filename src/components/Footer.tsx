@@ -55,7 +55,7 @@ export function Footer() {
           <h4 className="mb-4 text-sm font-semibold text-white">Síguenos</h4>
           <div className="flex gap-3">
             {[
-              { Icon: LinkedinIcon, label: "LinkedIn", href: "https://www.linkedin.com/showcase/selektafood/" },
+              { Icon: LinkedinIcon, label: "LinkedIn", href: "https://www.linkedin.com/company/selekta-food" },
               { Icon: InstagramIcon, label: "Instagram", href: "https://www.instagram.com/selekta.food/" },
             ].map(({ Icon, label, href }) => (
               <a
